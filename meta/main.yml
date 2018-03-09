@@ -15,6 +15,9 @@ galaxy_info:
     - xenial
     - trusty
 
-  galaxy_tags: nfs,utils
+  galaxy_tags:
+    - "nfs"
+    - "utils"
+    - "cusp"
 
 dependencies: []
