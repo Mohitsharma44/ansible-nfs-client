@@ -6,7 +6,9 @@ NFS client role for mouting NFS server
 Requirements
 ------------
 
-N/A
+> For testing this setup, you need a NFS server that has exported
+> /var/nfs/general with following options:
+> `/var/nfs/general *(rw,insecure,no_subtree_check,no_root_squash)`
 
 Role Variables
 --------------
