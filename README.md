@@ -12,9 +12,9 @@ Role Variables
 --------------
 
 `nfs_shares`: List of dictionaries with following variables:
-    - `mnt_path`: location to mount the nfs share locally
-    - `remote_path`: Remote NFS share path
-    - `nfs_mount_opts`: `comma-separated` nfs mount options
+- `mnt_path`: location to mount the nfs share locally
+- `remote_path`: Remote NFS share path
+- `nfs_mount_opts`: `comma-separated` nfs mount options
 
 Dependencies
 ------------
